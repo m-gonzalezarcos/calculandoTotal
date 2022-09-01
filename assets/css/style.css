@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: darkgrey;
+    background-color: #fff;
     font-family: 'Open sans', sans-serif;
     font-size: 16px;
     color: #fff;
@@ -17,7 +17,7 @@ body {
     margin: 100px auto;
     background-color: #0070b6;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     text-align: center;
     padding: 10px 0;
 }
