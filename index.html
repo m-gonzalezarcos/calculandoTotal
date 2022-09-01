@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1 - Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="datos">
+        <!-- Paso 1 Tarjeta -->
+        <article class="tarjeta">
+            <img src="assets/img/uncharted4.jpg" alt="Imagen video juego Uncharted 4">
+            <figcaption>Videogame Uncharted 4</figcaption>
+            <h3>Precio: 25.000</h3>
+
+        <!-- Paso 2 Input -->
+        <div class="campo-texto">
+            <input type="number" id="cantidad" placeholder="Cantidad">
+            
+            <select id="color" class="seleccion">
+                <option value="#008000">Verde</option>
+                <option value="#FFD300">Amarillo</option>
+                <option value="	#FF0000">Rojo</option>
+            </select>
+
+        <!-- Paso 3 Boton -->
+            <button type="button" id="btn">Calcular Total</button>
+
+            <div class="respuesta">
+                <p>Total: $<span id="precioTotal"> 0</span></p>
+                <p>Cantidad: <span id="cantidadTotal"> 0</psan></p>
+                <p>Color:<span class="color-circle" id="colorCircle"></span></p>
+            </div>
+
+        </div>
+        </article>
+    </section>
+
+   
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
