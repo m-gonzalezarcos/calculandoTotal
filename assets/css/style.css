@@ -69,6 +69,11 @@ body {
 }
 
 .respuesta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 60%;
     padding: 10px;
     text-align: center;
